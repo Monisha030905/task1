@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<>
+    <section class="offers-container">
+        <div class="offer-card">
+            <img src="offer1.jpg" alt="Offer 1">
+            <h2>50% Off Summer Sale</h2>
+            <p>Get 50% off on all summer collections.</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="offer-card">
+            <img src="offer2.jpg" alt="Offer 2">
+            <h2>Buy 1 Get 1 Free</h2>
+            <p>Buy one item and get the second absolutely free!</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="offer-card">
+            <img src="offer3.jpg" alt="Offer 3">
+            <h2>20% Off on Electronics</h2>
+            <p>Special discount on all electronic items.</p>
+            <button>Shop Now</button>
+        </div>
+        <!-- Add more offer cards as needed -->
+    </section>
+</body>
+    <footer>
+        <p>&copy; 2024 Offers Page. All rights reserved.</p>
+    </footer>
+
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px black;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .movie-details {
+            margin-bottom: 20px;
+        }
+        .showtimes {
+            list-style-type: none;
+            padding: 0;
+        }
+        .showtimes li {
+            margin-bottom: 10px;
+        }
+        .showtimes button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .showtimes button:hover {
+            background-color: #0056b3;
+        }
+        .booking-confirmation {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #007BFF;
+            color: #007BFF;
+            border-radius: 5px;
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Ticket Booking</h1>
+        <div class="movie-details">
+            <h2>Movie: MORBIUS</h2>
+            <p>Date: September 15, 2024</p>
+            <p>Select a showtime:</p>
+            <ul class="showtimes">
+                <li><button onclick="bookTicket('10:00 AM')">10:00 AM</button></li>
+                <li><button onclick="bookTicket('1:00 PM')">1:00 PM</button></li>
+                <li><button onclick="bookTicket('4:00 PM')">4:00 PM</button></li>
+                <li><button onclick="bookTicket('7:00 PM')">7:00 PM</button></li>
+                <li><button onclick="bookTicket('9:30 PM')">9:30 PM</button></li>
+            </ul>
+        </div>
+        <button><a href="seats.html"Seats>Available Seats</a></button>
+
+        <div class="booking-confirmation" id="confirmationMessage">
+            <p>Thank you for booking! Your showtime is <span id="selectedTime"></span>.</p>
+        </div>
+
+
+    <div class="container"></div>
+
+        <div class="movie-details">
+            <h2>Movie: HARRY POTTER</h2>
+            <p>Date: September 15, 2024</p>
+            <p>Select a showtime:</p>
+            <ul class="showtimes">
+                <li><button onclick="bookTicket('10:00 AM')">10:00 AM</button></li>
+                <li><button onclick="bookTicket('1:00 PM')">1:00 PM</button></li>
+                <li><button onclick="bookTicket('4:00 PM')">4:00 PM</button></li>
+                <li><button onclick="bookTicket('7:00 PM')">7:00 PM</button></li>
+                <li><button onclick="bookTicket('9:30 PM')">9:30 PM</button></li>
+            </ul>
+            <button><a href="seats.html"Seats>Available Seats</a></button>
+
+        </div>
+        <div class="booking-confirmation" id="confirmationMessage">
+            <p>Thank you for booking! Your showtime is <span id="selectedTime"></span>.</p>
+        </div>
+    
+
+    <div class="container"></div>
+        
+        <div class="movie-details">
+            <h2>Movie: JOKER</h2>
+            <p>Date: September 15, 2024</p>
+            <p>Select a showtime:</p>
+            <ul class="showtimes">
+                <li><button onclick="bookTicket('10:00 AM')">10:00 AM</button></li>
+                <li><button onclick="bookTicket('1:00 PM')">1:00 PM</button></li>
+                <li><button onclick="bookTicket('4:00 PM')">4:00 PM</button></li>
+                <li><button onclick="bookTicket('7:00 PM')">7:00 PM</button></li>
+                <li><button onclick="bookTicket('9:30 PM')">9:30 PM</button></li>
+            </ul>
+        </div>
+        
+        <button><a href="seats.html"Seats>Available Seats</a></button>
+
+        <div class="booking-confirmation" id="confirmationMessage">
+            <p>Thank you for booking! Your showtime is <span id="selectedTime"></span>.</p>
+        </div>
+
+
+    <script>
+        function bookTicket(time) {
+            document.getElementById("selectedTime").innerText = time;
+            document.getElementById("confirmationMessage").style.display = "block";
+        }
+        function bookTicket(time) {
+            document.getElementById("selectedTime").innerText = time;
+            document.getElementById("confirmationMessage").style.display = "block";
+        }
+        function bookTicket(time) {
+            document.getElementById("selectedTime").innerText = time;
+            document.getElementById("confirmationMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
